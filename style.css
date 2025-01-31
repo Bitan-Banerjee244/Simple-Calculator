@@ -99,10 +99,19 @@ button {
 }
 @media (max-width: 570px) {
   .container {
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 450px;
   }
   .button {
-    height: 70px;
+    height: 60px;
+    font-size: 25px;
+  }
+  button
+  {
+    font-size: 19px;
+  }
+  .delete
+  {
+    font-size: 19px;
   }
 }
