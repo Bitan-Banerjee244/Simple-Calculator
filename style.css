@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+.container {
+  width: 500px;
+  height: 600px;
+  padding: 20px;
+  background-color: #111;
+  backdrop-filter: blur(20px);
+  box-shadow: 2px 2px 10px gray, -2px -2px 10px gray;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  padding: 20px;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  outline: none;
+  border: 2px solid yellow;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.bodyCAL {
+  width: 100%;
+  height: 470px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.button {
+  width: 20%;
+  margin-right: 10px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #222;
+  box-shadow: 2px 2px 20px green, -2px -2px 20px blue, 2px -2px 20px yellow,
+    -2px 2px 20px red;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 1000;
+  cursor: pointer;
+}
+button {
+  width: 50%;
+  height: 40px;
+  background-color: rgb(88, 4, 4);
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  text-transform: uppercase;
+}
+.extrabutton {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.delete {
+  width: 45%;
+  height: 40px;
+  background-color: green;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  border: 2px solid white;
+}
+@media (max-width: 570px) {
+  .container {
+    width: 400px;
+    height: 500px;
+  }
+  .button {
+    height: 70px;
+  }
+}
